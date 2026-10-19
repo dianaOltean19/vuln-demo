@@ -1,0 +1,18 @@
+package,version,how_included,ghsa,cve,severity,cwes,fixed_in,summary
+org.apache.commons:commons-text,1.9,direct,GHSA-599f-7c49-w659,CVE-2022-42889,critical,CWE-94,1.10.0,Arbitrary code execution in Apache Commons Text
+org.apache.logging.log4j:log4j-core,2.14.1,direct,GHSA-7rjr-3q55-vv33,CVE-2021-45046,critical,"CWE-502,CWE-917",2.12.2; 2.16.0; 2.3.1,Incomplete fix for Apache Log4j vulnerability
+org.apache.logging.log4j:log4j-core,2.14.1,direct,GHSA-jfh8-c2jp-5v3q,CVE-2021-44228,critical,"CWE-20,CWE-400,CWE-502,CWE-917",2.12.2; 2.15.0; 2.3.1,Remote code injection in Log4j
+org.apache.logging.log4j:log4j-core,2.14.1,direct,GHSA-p6xc-xr62-6r2g,CVE-2021-45105,high,"CWE-20,CWE-674",2.12.3; 2.17.0; 2.3.1,Apache Log4j2 vulnerable to Improper Input Validation and Uncontrolled Recursion
+org.yaml:snakeyaml,1.30,direct,GHSA-3mc7-4q67-w48m,CVE-2022-25857,high,"CWE-400,CWE-776",1.31,Uncontrolled Resource Consumption in snakeyaml
+org.yaml:snakeyaml,1.30,direct,GHSA-mjmj-j48q-9wg2,CVE-2022-1471,high,"CWE-20,CWE-502",2.0,SnakeYaml Constructor Deserialization Remote Code Execution
+org.apache.commons:commons-lang3,3.11,via commons-text,GHSA-j288-q9x7-2f5v,CVE-2025-48924,medium,CWE-674,3.18.0,Apache Commons Lang is vulnerable to Uncontrolled Recursion when processing long inputs
+org.apache.logging.log4j:log4j-api,2.14.1,via log4j-core,GHSA-qv9r-c865-cp47,CVE-2026-49844,medium,CWE-116,2.25.5; 2.26.1,Apache Log4j API: Improper encoding of non-finite floating-point values during MapMessage JSON serialization
+org.apache.logging.log4j:log4j-core,2.14.1,direct,GHSA-3pxv-7cmr-fjr4,CVE-2026-34480,medium,CWE-116,2.25.4; none,Apache Log4j Core: Silent log event loss in XmlLayout due to unescaped XML 1.0 forbidden characters
+org.apache.logging.log4j:log4j-core,2.14.1,direct,GHSA-6hg6-v5c8-fphq,CVE-2026-34477,medium,CWE-297,2.25.4; none,Apache Log4j Core: `verifyHostName` attribute silently ignored in TLS configuration
+org.apache.logging.log4j:log4j-core,2.14.1,direct,GHSA-8489-44mv-ggj8,CVE-2021-44832,medium,"CWE-20,CWE-74",2.12.4; 2.17.1; 2.3.2,Improper Input Validation and Injection in Apache Log4j2
+org.apache.logging.log4j:log4j-core,2.14.1,direct,GHSA-vc5p-v9hr-52mj,CVE-2025-68161,medium,CWE-297,2.25.3,Apache Log4j does not verify the TLS hostname in its Socket Appender
+org.yaml:snakeyaml,1.30,direct,GHSA-98wm-3w3q-mw94,CVE-2022-38751,medium,"CWE-121,CWE-787",1.31,snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write
+org.yaml:snakeyaml,1.30,direct,GHSA-9w3m-gqgf-c4p9,CVE-2022-38752,medium,"CWE-121,CWE-787",1.32,snakeYAML before 1.32 vulnerable to Denial of Service due to Out-of-bounds Write
+org.yaml:snakeyaml,1.30,direct,GHSA-c4r9-r8fh-9vj2,CVE-2022-38749,medium,"CWE-121,CWE-787",1.31,snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write
+org.yaml:snakeyaml,1.30,direct,GHSA-hhhw-99gj-p3c3,CVE-2022-38750,medium,"CWE-121,CWE-787",1.31,snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write
+org.yaml:snakeyaml,1.30,direct,GHSA-w37g-rhq8-7m4j,CVE-2022-41854,medium,"CWE-121,CWE-787",1.32,Snakeyaml vulnerable to Stack overflow leading to denial of service
